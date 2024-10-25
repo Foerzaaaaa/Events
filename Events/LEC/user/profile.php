@@ -145,7 +145,7 @@ if ($registrations_result) {
                                                 Cancel
                                             </a>
                                         <?php endif; ?>
-                                        <a href="event_details.php?id=<?php echo $registration['id']; ?>" 
+                                        <a href="event_detail.php?id=<?php echo $registration['id']; ?>" 
                                            class="text-blue-600 hover:text-blue-800 transition duration-300">
                                             Details
                                         </a>
